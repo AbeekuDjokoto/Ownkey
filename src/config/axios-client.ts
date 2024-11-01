@@ -4,7 +4,7 @@ import { useAuthStore } from '@/stores';
 import { ROUTES } from '@/utils';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5200',
+  baseURL: import.meta.env.VITE_OWNKEY_CLIENT_PUBLIC_BASE_URL,
 });
 
 const CANCELLED_STATUS_CODE = 499;
