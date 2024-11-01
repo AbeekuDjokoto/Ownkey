@@ -7,7 +7,7 @@ import { FilterType } from '@/types';
 import { AmenityDropdown } from '../AmenitiesDropdown';
 import { CustomDropdown } from '../CustomDropdown';
 import { Icon } from '../Icon';
-import { LocationFilter } from '../LocationFilter';
+// import { LocationFilter } from '../LocationFilter';
 import { PopoverSearch } from '../PopOverSearch';
 import { PriceDropdown } from '../PriceDropdown';
 
@@ -130,7 +130,7 @@ function PopOvers({ filter, search, setFilter, setSearch, onSearch, className }:
                   Location
                 </label>
 
-                <LocationFilter setFilter={setFilter} />
+                {/* <LocationFilter setFilter={setFilter} /> */}
               </div>
             </div>
           );
