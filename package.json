@@ -6,7 +6,7 @@
   "scripts": {
     "dev:start": "vite",
     "build": "vite build",
-    "start": "vite preview",
+    "start": "node server.js",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "update-icons": "node scripts/update-icon-names && yarn lint"
@@ -25,6 +25,7 @@
     "axios": "^1.7.5",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "compression": "^1.7.5",
     "dayjs": "^1.11.13",
     "framer-motion": "^11.5.4",
     "lucide-react": "^0.454.0",
